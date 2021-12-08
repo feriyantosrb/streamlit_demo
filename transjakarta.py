@@ -20,8 +20,8 @@ st.markdown("*Sumber data berasal dari [Jakarta Open Data](https://data.jakarta.
 ############### title ###############)
 
 ############### sidebar ###############
-image = Image.open('streamlit_logo.jpg')
-st.image(image)
+image = Image.open('tj_logo.png')
+st.sidebar.image(image)
 
 st.sidebar.title("Pengaturan")
 left_col, mid_col, right_col = st.columns(3)
@@ -82,7 +82,7 @@ for i in range(len(list_bulan)):
     #print(f"Bulan {bulan}, total penumpang: {jumlah_perbulan}")
     total_perbulan.append(int(jumlah_perbulan))
 
-cmap_name = 'tab20b'
+cmap_name = 'tab20'
 cmap = cm.get_cmap(cmap_name)
 colors = cmap.colors[:len(list_bulan)]
 fig, ax = plt.subplots()
