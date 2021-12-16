@@ -20,7 +20,7 @@ st.markdown("*Sumber data berasal dari [Jakarta Open Data](https://data.jakarta.
 ############### title ###############)
 
 ############### sidebar ###############
-image = Image.open('https://github.com/feriyantosrb/streamlit_demo/blob/main/tj_logo.png')
+image = Image.open(https://github.com/feriyantosrb/streamlit_demo/blob/main/tj_logo.png)
 st.sidebar.image(image)
 
 st.sidebar.title("Pengaturan")
